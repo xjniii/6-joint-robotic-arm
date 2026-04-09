@@ -1,0 +1,27 @@
+# XJNIII 机械臂控制系统 - PySide6版本依赖
+
+# Qt框架
+PySide6>=6.6.0
+PySide6-Addons>=6.6.0
+
+# 串口通信
+pyserial>=3.5
+
+# 计算机视觉
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# 运动学
+ikpy>=3.3.0
+
+# 手势识别
+mediapipe>=0.10.0
+
+# 手柄支持
+pygame>=2.5.0
+
+# AI功能（可选）
+# ultralytics>=8.0.0  # YOLO
+# openai-whisper>=20230314  # 语音识别
+# transformers>=4.30.0  # LLM
